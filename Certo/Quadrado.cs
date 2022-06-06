@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Solid_OCP.Certo
+﻿namespace Solid_OCP.Certo
 {
     public class Quadrado : FormaGeometrica
     {

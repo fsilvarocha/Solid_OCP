@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Solid_OCP.Errado
 {
@@ -12,6 +8,7 @@ namespace Solid_OCP.Errado
         public double Largura { get; set; }
         public double Altura { get; set; }
         public double Raio { get; set; }
+
         //Forma errada do OCP
         public double CalculaArea()
         {

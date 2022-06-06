@@ -6,7 +6,7 @@ namespace Solid_OCP
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Forma errada do OCP
             var quadrado = new FormaGeometricaErrado();
@@ -22,7 +22,6 @@ namespace Solid_OCP
             circulo.Tipo = FormaGeometricaTipo.Circulo;
             var AreaCirculo = circulo.CalculaArea();
 
-
             Console.WriteLine("Forma Errada: Area do Quadrado: " + Area.ToString());
             Console.WriteLine("Forma Errada: Area do Circulo: " + AreaCirculo.ToString());
 
@@ -34,7 +33,6 @@ namespace Solid_OCP
 
             Console.WriteLine("Forma Certa: Area do Quadrado: " + AreaQuadrado.ToString());
             Console.WriteLine("Forma Certa: Area do Circulo: " + CirculoArea.ToString());
-
         }
     }
 }
